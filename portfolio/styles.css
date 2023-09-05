@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    background-color: #FFC3A1;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #A75D5D;
+    color:white;
+    padding: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about, .portfolio, .contact {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 2rem;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #D3756B;
+    color: #D3756B;
+}
